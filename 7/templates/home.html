@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet"  type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}">
+</head>
+<body class="bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/home"><h1 class="display-3">Me-<span>dumb</span></h1></a>
+			</div>
+			<div>
+				<ul class="navbar-nav">
+					<li id="rig"><a href="/add-berita" class="btn-sm btn" id="but"><span id="cen">Add Berita</span></a></li>
+					<li><a href="/add-user" class="btn btn-sm" id="but"><span id="cen">Add User</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+			<div class="card" id="cardss" style="width: 26rem;">
+			<img class="card-img-top" src="https://asset.kompas.com/crops/A-nV7Mv9R-Vf9Kk9nE3QrUCeMQI=/128x91:1152x774/750x500/data/photo/2020/03/24/5e78f4f264a51.jpg" alt="Moon" width="400" height="300">
+			<div class="card-body" id="color_card">
+				<h5 class="card-title">Fenomena Bulan</h5>
+				<p class="card-text">This Moon is big enough to kill us</p>
+				<a href="" class="btn btn-primary">Details</a>
+			</div>
+		</div>
+</body>
+</html>
